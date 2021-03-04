@@ -33,7 +33,7 @@ Simply load the module after loading Highlight.js.  You'll use the minified vers
 If you're using Node / Webpack / Rollup / Browserify, etc, simply require the language module, then register it with Highlight.js.
 
 ```javascript
-var hljs = require('highlightjs');
+var hljs = require('highlight.js');
 var hljsRobotsTxt = require('highlightjs-robots-txt');
 
 hljs.registerLanguage("robots-txt", hljsRobotsTxt);
