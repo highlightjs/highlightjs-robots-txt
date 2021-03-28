@@ -10,8 +10,8 @@ module.exports = function (hljs) {
   return {
     aliases: ['robotstxt', 'robots.txt'],
     case_insensitive: true,
-    lexemes: '[a-z-]+',
     keywords: {
+      $pattern: /[a-z-]+/,
       section: 'user-agent',
       built_in: 'allow disallow',
       keyword: 'crawl-delay sitemap'
