@@ -37,7 +37,7 @@ var hljs = require('highlight.js');
 var hljsRobotsTxt = require('highlightjs-robots-txt');
 
 hljs.registerLanguage("robots-txt", hljsRobotsTxt);
-hljs.initHighlightingOnLoad();
+hljs.highlightAll();
 ```
 
 
